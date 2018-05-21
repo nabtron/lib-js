@@ -1,4 +1,5 @@
 // works with jquery 3.3.1
+// reference: https://www.w3schools.com/howto/howto_js_scroll_indicator.asp
 /* 
         add this in html:
         
