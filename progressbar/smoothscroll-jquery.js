@@ -1,5 +1,7 @@
 
 // working with jQuery 3.3.1
+// Adding this to the end of the file will enable smooth scroll to all on-page anchor links
+
 $(document).ready(function() {            
     // Add smooth scrolling to all links
     $("a").on('click', function(event) {
