@@ -1,6 +1,7 @@
 // works with jquery 3.3.1
 /* 
         add this in html:
+        
         <div class="progress-container hide">
             <div class="progress-bar" id="myBar"></div>
         </div>
@@ -19,8 +20,6 @@
             background: #006cbb;
             width: 0%;
         }
-        
-
 */
 
 $(document).ready(function() {
