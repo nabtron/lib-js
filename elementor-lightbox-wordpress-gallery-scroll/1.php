@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Hello_Dolly
+ * @package nabtron_wp_custom_gallery_scroll
  * @version 0.1
  */
 /*
