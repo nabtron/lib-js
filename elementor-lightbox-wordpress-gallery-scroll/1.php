@@ -21,19 +21,16 @@ function nabtron_wp_custom_gallery_scroll(){
 
 jQuery(document).keydown(function(e) {
     switch(e.which) {
+            
         case 37: // left
         nabtron_gallery_scroll('left');
-        break;
-
-        case 38: // up
         break;
 
         case 39: // right
         nabtron_gallery_scroll('right');
         break;
 
-        case 40: // down
-        break;
+        // 38 for up and 40 for down, however it will prevent page scroll up and down with arrow keys if you use them
 
         default: return; // exit this handler for other keys
     }
