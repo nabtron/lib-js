@@ -8,13 +8,14 @@
 				});
 			});
 			$(window).scroll(function(e) {
-				console.log(is_menu_click);
 				if(is_menu_click == 0){
 					$(".floating_menu").fadeIn();
 				}else{
 					$(".floating_menu").fadeOut();
 				}
-					
+				if($(window).scrollTop() === 0) {
+					$(".floating_menu").fadeIn();
+				}
 			});
 		});
 	})(jQuery);
