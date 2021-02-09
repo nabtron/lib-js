@@ -1,10 +1,12 @@
 // converts the css boxshadow properties to object, using regex too
 
 let a = '1px 1px 3px #999, 2px 2px rgba(0, 0, 0, 0.1),inset 2px 2px rgb(0, 0, 0, 0.1);';
+a = a.trim();
 var lastChar = a.slice(-1);
 if (lastChar == ';') {
     a = a.slice(0, -1);
 }
+a = a.trim();
 let b = a.split(/\,\s?(?![^\(]*\))/);
 // console.log(b.length);
 
@@ -22,6 +24,7 @@ for(i=0;i<b.length;i++){
 
 
   let j = 0;
+    b[i] = b[i].trim();
   let d = b[i].split(/\s+(?![^\(]*\))/);
   let items = d.length;
   
