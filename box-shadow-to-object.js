@@ -1,4 +1,4 @@
-// converts the boxshadow properties to object, using regex too
+// converts the css boxshadow properties to object, using regex too
 
 let a = '1px 1px 3px #999, 2px 2px rgba(0, 0, 0, 0.1),inset 2px 2px rgb(0, 0, 0, 0.1);';
 var lastChar = a.slice(-1);
