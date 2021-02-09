@@ -24,7 +24,7 @@ for(i=0;i<b.length;i++){
 
 
   let j = 0;
-    b[i] = b[i].trim();
+  b[i] = b[i].trim();
   let d = b[i].split(/\s+(?![^\(]*\))/);
   let items = d.length;
   
