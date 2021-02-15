@@ -1,0 +1,11 @@
+//https://math.stackexchange.com/questions/22348/how-to-add-and-subtract-values-from-an-average
+
+//diff?
+
+// theirs:
+average = average + ((value - average) / nValues)
+// and to substract
+average = (average * nValues - value) / (nValues - 1)
+
+// my formula:
+{(average_old x n) + d } / (n+1)
